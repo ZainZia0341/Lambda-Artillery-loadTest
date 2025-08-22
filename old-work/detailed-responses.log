@@ -1,0 +1,750 @@
+REQUEST #1
+{
+  "requestNumber": 1,
+  "timestamp": "2025-07-31T16:18:50.369Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #2
+{
+  "requestNumber": 2,
+  "timestamp": "2025-07-31T16:18:50.521Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting specific income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #3
+{
+  "requestNumber": 3,
+  "timestamp": "2025-07-31T16:18:50.523Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #4
+{
+  "requestNumber": 4,
+  "timestamp": "2025-07-31T16:18:50.652Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is incorrect as it completely reverses the age-based distinctions between these programs. Medicare is actually the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is a state-managed program based on income thresholds and/or qualifying disabilities, not age. The key difference is that Medicare eligibility centers on age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability regardless of age.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #5
+{
+  "requestNumber": 5,
+  "timestamp": "2025-07-31T16:18:50.786Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #6
+{
+  "requestNumber": 6,
+  "timestamp": "2025-07-31T16:18:50.956Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability, not age categories of \"old\" versus \"young\" people.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #7
+{
+  "requestNumber": 7,
+  "timestamp": "2025-07-31T16:18:51.114Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #8
+{
+  "requestNumber": 8,
+  "timestamp": "2025-07-31T16:18:51.135Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is for people meeting income thresholds OR having qualifying disabilities - the key distinction is that Medicare eligibility is based on age (65+) or disability, whereas Medicaid eligibility is primarily based on income level and/or disability status. The user has reversed the age-related aspects and missed the fundamental difference between these two programs.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #9
+{
+  "requestNumber": 9,
+  "timestamp": "2025-07-31T16:18:51.142Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet specific income thresholds or have qualifying disabilities regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #10
+{
+  "requestNumber": 10,
+  "timestamp": "2025-07-31T16:18:51.462Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #11
+{
+  "requestNumber": 11,
+  "timestamp": "2025-07-31T16:18:51.520Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #12
+{
+  "requestNumber": 12,
+  "timestamp": "2025-07-31T16:18:51.538Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet certain income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #13
+{
+  "requestNumber": 13,
+  "timestamp": "2025-07-31T16:18:51.658Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "This answer is completely incorrect and reverses the two programs. Medicare is actually the federal program primarily for people aged 65 and older, while Medicaid is the state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #14
+{
+  "requestNumber": 14,
+  "timestamp": "2025-07-31T16:18:51.699Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting specific income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability, not age categories of \"old\" versus \"young.\"",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #15
+{
+  "requestNumber": 15,
+  "timestamp": "2025-07-31T16:18:51.750Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #16
+{
+  "requestNumber": 16,
+  "timestamp": "2025-07-31T16:18:51.760Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #17
+{
+  "requestNumber": 17,
+  "timestamp": "2025-07-31T16:18:51.763Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "This answer is completely incorrect and reverses the actual eligibility criteria for both programs. Medicare is primarily for people aged 65 and older, while Medicaid is a state-managed program based on income thresholds and qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #18
+{
+  "requestNumber": 18,
+  "timestamp": "2025-07-31T16:18:51.764Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #19
+{
+  "requestNumber": 19,
+  "timestamp": "2025-07-31T16:18:51.771Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #20
+{
+  "requestNumber": 20,
+  "timestamp": "2025-07-31T16:18:51.789Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "This answer is completely incorrect and reverses the actual eligibility criteria for both programs. Medicare is primarily for people aged 65 and older, while Medicaid is a state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #21
+{
+  "requestNumber": 21,
+  "timestamp": "2025-07-31T16:18:51.812Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #22
+{
+  "requestNumber": 22,
+  "timestamp": "2025-07-31T16:18:51.853Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #23
+{
+  "requestNumber": 23,
+  "timestamp": "2025-07-31T16:18:51.863Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is incorrect and has the programs completely reversed. Medicare is the federal program primarily for people aged 65 and older (plus some under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #24
+{
+  "requestNumber": 24,
+  "timestamp": "2025-07-31T16:18:51.878Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is for people who meet income thresholds OR have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #25
+{
+  "requestNumber": 25,
+  "timestamp": "2025-07-31T16:18:51.882Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicaid is actually the state-managed program for people meeting income thresholds or having qualifying disabilities, while Medicare is the federal program for people 65+ or under 65 with qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability, whereas Medicaid eligibility is based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #26
+{
+  "requestNumber": 26,
+  "timestamp": "2025-07-31T16:18:51.902Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is incorrect and actually reverses the two programs. Medicare is the federal program primarily for people aged 65 and older, while Medicaid is the state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #27
+{
+  "requestNumber": 27,
+  "timestamp": "2025-07-31T16:18:51.906Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #28
+{
+  "requestNumber": 28,
+  "timestamp": "2025-07-31T16:18:51.913Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program based primarily on income thresholds and/or having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #29
+{
+  "requestNumber": 29,
+  "timestamp": "2025-07-31T16:18:51.925Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people meeting specific income thresholds or having qualifying disabilities regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #30
+{
+  "requestNumber": 30,
+  "timestamp": "2025-07-31T16:18:51.936Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is incorrect and actually reverses the programs. Medicare is the federal program primarily for people aged 65 and older, while Medicaid is the state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #31
+{
+  "requestNumber": 31,
+  "timestamp": "2025-07-31T16:18:51.968Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities - not age. The key distinction is that Medicare eligibility is primarily based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #32
+{
+  "requestNumber": 32,
+  "timestamp": "2025-07-31T16:18:51.977Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "This answer is incorrect and reverses the actual eligibility criteria for these programs. Medicare is primarily for people aged 65 and older, while Medicaid is a state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by meeting income requirements and/or having qualifying disabilities.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #33
+{
+  "requestNumber": 33,
+  "timestamp": "2025-07-31T16:18:51.998Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #34
+{
+  "requestNumber": 34,
+  "timestamp": "2025-07-31T16:18:52.073Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people aged 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet certain income thresholds OR have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #35
+{
+  "requestNumber": 35,
+  "timestamp": "2025-07-31T16:18:52.098Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet certain income thresholds or have qualifying disabilities regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #36
+{
+  "requestNumber": 36,
+  "timestamp": "2025-07-31T16:18:52.146Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet certain income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #37
+{
+  "requestNumber": 37,
+  "timestamp": "2025-07-31T16:18:52.159Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is primarily for people aged 65 and older, while Medicaid is a state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #38
+{
+  "requestNumber": 38,
+  "timestamp": "2025-07-31T16:18:52.211Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #39
+{
+  "requestNumber": 39,
+  "timestamp": "2025-07-31T16:18:52.222Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program based on income thresholds and/or qualifying disabilities, not age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #40
+{
+  "requestNumber": 40,
+  "timestamp": "2025-07-31T16:18:52.328Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people meeting income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #41
+{
+  "requestNumber": 41,
+  "timestamp": "2025-07-31T16:18:52.384Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #42
+{
+  "requestNumber": 42,
+  "timestamp": "2025-07-31T16:18:52.388Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "This answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (or those under 65 with qualifying disabilities), while Medicaid is the state-managed program based on income thresholds and/or qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is determined by age (65+) or disability status, whereas Medicaid eligibility is determined by income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #43
+{
+  "requestNumber": 43,
+  "timestamp": "2025-07-31T16:18:52.423Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet certain income thresholds or have qualifying disabilities regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #44
+{
+  "requestNumber": 44,
+  "timestamp": "2025-07-31T16:18:52.459Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people meeting specific income thresholds OR having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #45
+{
+  "requestNumber": 45,
+  "timestamp": "2025-07-31T16:18:52.498Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect and reverses the actual eligibility criteria for these programs. Medicare is the federal program primarily for people aged 65 and older (plus those under 65 with qualifying disabilities), while Medicaid is the state-managed program for people who meet specific income thresholds regardless of age, along with those having qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #46
+{
+  "requestNumber": 46,
+  "timestamp": "2025-07-31T16:18:52.717Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet certain income thresholds or have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #47
+{
+  "requestNumber": 47,
+  "timestamp": "2025-07-31T16:18:52.817Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect - they have reversed the programs and oversimplified the eligibility criteria. Medicare is primarily for people aged 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people meeting income thresholds regardless of age, though it can also cover those with qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #48
+{
+  "requestNumber": 48,
+  "timestamp": "2025-07-31T16:18:52.932Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older or those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet certain income thresholds or have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #49
+{
+  "requestNumber": 49,
+  "timestamp": "2025-07-31T16:18:53.087Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "Your answer is incorrect - you have the programs reversed and oversimplified. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet certain income thresholds OR have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is primarily based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================
+REQUEST #50
+{
+  "requestNumber": 50,
+  "timestamp": "2025-07-31T16:18:53.302Z",
+  "url": "undefined/staging/invoke-claude",
+  "statusCode": "N/A",
+  "responseTime": "N/A",
+  "headers": {},
+  "body": {
+    "evaluation": "The user's answer is completely incorrect. Medicare is actually the federal program for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is the state-managed program for people who meet specific income thresholds OR have qualifying disabilities. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.",
+    "question": "Why do some people qualify for Medicaid and others for Medicare?",
+    "userAnswer": "Medicaid is for old people. Medicare is for young people."
+  }
+}
+================================================================================

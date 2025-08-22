@@ -1,0 +1,78 @@
+﻿{
+    "results":  [
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:34:52.212"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "923b54a2-bd35-4d54-a9b9-90b36525a84a"
+                        },
+                        {
+                            "field":  "@duration",
+                            "value":  "2894.13"
+                        },
+                        {
+                            "field":  "@billedDuration",
+                            "value":  "2895"
+                        },
+                        {
+                            "field":  "@maxMemoryUsed",
+                            "value":  "119000000"
+                        },
+                        {
+                            "field":  "@memorySize",
+                            "value":  "1024000000"
+                        },
+                        {
+                            "field":  "@initDuration",
+                            "value":  "944.22"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBhokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IyJOT74ozEL/84O+KMxI1GhgCBokjIUEAAAABO0mFnwAGifN1IAAABxIgASjl48LvijMwtPrC74ozOAVAmgVI5BJQ7AkgAhAEGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:34:51.425"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "aed443ac-f6df-48ce-bc7c-fc0513efbbba"
+                        },
+                        {
+                            "field":  "@duration",
+                            "value":  "2220.96"
+                        },
+                        {
+                            "field":  "@billedDuration",
+                            "value":  "2221"
+                        },
+                        {
+                            "field":  "@maxMemoryUsed",
+                            "value":  "119000000"
+                        },
+                        {
+                            "field":  "@memorySize",
+                            "value":  "1024000000"
+                        },
+                        {
+                            "field":  "@initDuration",
+                            "value":  "834.66"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBRokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IyJOT74ozEL/84O+KMxI1GhgCBont3kMAAAAAvLkZ+gAGifN28AAAAjIgASit3MLvijMwofTC74ozOBBAwxFIhhlQhhAgAhAPGAE="
+                        }
+                    ]
+                ],
+    "statistics":  {
+                       "recordsMatched":  2.0,
+                       "recordsScanned":  32.0,
+                       "bytesScanned":  4486.0
+                   },
+    "status":  "Complete"
+}

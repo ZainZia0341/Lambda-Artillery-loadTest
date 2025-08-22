@@ -1,0 +1,166 @@
+﻿{
+    "results":  [
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:21.000"
+                        },
+                        {
+                            "field":  "@ingestionTime",
+                            "value":  "2025-08-15 13:17:30.301"
+                        },
+                        {
+                            "field":  "requestId",
+                            "value":  "6309cd3c-be0d-4ba7-b7bf-5c9c28cfc30a"
+                        },
+                        {
+                            "field":  "@aws.account",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "@aws.region",
+                            "value":  "us-east-1"
+                        },
+                        {
+                            "field":  "invocationTime",
+                            "value":  "2025-08-15T13:17:21Z"
+                        },
+                        {
+                            "field":  "accountId",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "{\"timestamp\":\"2025-08-15T13:17:21Z\",\"accountId\":\"663981805246\",\"identity\":{\"arn\":\"arn:aws:sts::663981805246:assumed-role/ie-staging-staging-claudeInvoker-us-east-1-lambdaRole/ie-staging-claudeInvoker\"},\"region\":\"us-east-1\",\"requestId\":\"6309cd3c-be0d-4ba7-b7bf-5c9c28cfc30a\",\"operation\":\"InvokeModel\",\"modelId\":\"arn:aws:bedrock:us-east-1:663981805246:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0\",\"input\":{\"inputContentType\":\"application/json\",\"inputBodyJson\":{\"anthropic_version\":\"bedrock-2023-05-31\",\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"You are an expert insurance evaluator. A user has answered the question: \\\"Why do some people qualify for Medicaid and others for Medicare?\\\"\\nYour task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.\\nEVALUATION RULES:\\n- If correct: Confirm accuracy and briefly reinforce the key distinction\\n- If incorrect: State why it\u0027s wrong and provide the correct explanation\\n- Use only the provided facts - no outside knowledge\\nFACTS:\\n- Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities\\n- Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities\\n- Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability\\n- Both programs can use private insurers for additional coverage\\nUSER\u0027S ANSWER: Medicaid is for old people. Medicare is for young people.\\nYour evaluation:\\n\"}]}],\"max_tokens\":512,\"temperature\":0.7},\"inputTokenCount\":219},\"output\":{\"outputContentType\":\"application/json\",\"outputBodyJson\":{\"id\":\"msg_bdrk_017K86xancUEJVT4CWyi17zW\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-20250514\",\"content\":[{\"type\":\"text\",\"text\":\"Your answer is incorrect and has the programs reversed. Medicare is the federal program primarily for people aged 65 and older, while Medicaid is the state-managed program based on income thresholds rather than age. The key distinction is that Medicare eligibility is determined by age (65+) or qualifying disabilities, whereas Medicaid eligibility is determined by income level and/or disability status.\"}],\"stop_reason\":\"end_turn\",\"stop_sequence\":null,\"usage\":{\"input_tokens\":219,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":85},\"amazon-bedrock-trace\":{\"guardrail\":{\"input\":{\"nggt98iysuiw\":{\"invocationMetrics\":{\"guardrailProcessingLatency\":400,\"usage\":{\"topicPolicyUnits\":1,\"contentPolicyUnits\":1,\"wordPolicyUnits\":1,\"automatedReasoningPolicyUnits\":0,\"automatedReasoningPolicies\":0,\"sensitiveInformationPolicyUnits\":1,\"sensitiveInformationPolicyFreeUnits\":0,\"contextualGroundingPolicyUnits\":0,\"contentPolicyImageUnits\":0},\"guardrailCoverage\":{\"textCharacters\":{\"guarded\":930,\"total\":930}}}}},\"outputs\":[{\"nggt98iysuiw\":{\"invocationMetrics\":{\"guardrailProcessingLatency\":265,\"usage\":{\"topicPolicyUnits\":1,\"contentPolicyUnits\":1,\"wordPolicyUnits\":1,\"automatedReasoningPolicyUnits\":0,\"automatedReasoningPolicies\":0,\"sensitiveInformationPolicyUnits\":1,\"sensitiveInformationPolicyFreeUnits\":0,\"contextualGroundingPolicyUnits\":0,\"contentPolicyImageUnits\":0},\"guardrailCoverage\":{\"textCharacters\":{\"guarded\":404,\"total\":404}}}}}],\"actionReason\":\"No action.\"}},\"amazon-bedrock-guardrailAction\":\"NONE\"},\"outputTokenCount\":85},\"inferenceRegion\":\"us-east-2\",\"schemaType\":\"ModelInvocationLog\",\"schemaVersion\":\"1.0\"}"
+                        },
+                        {
+                            "field":  "inferenceRegion",
+                            "value":  "us-east-2"
+                        },
+                        {
+                            "field":  "input.inputTokenCount",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "anthropicVersion",
+                            "value":  "bedrock-2023-05-31"
+                        },
+                        {
+                            "field":  "output.outputTokenCount",
+                            "value":  "85"
+                        },
+                        {
+                            "field":  "invocationId",
+                            "value":  "msg_bdrk_017K86xancUEJVT4CWyi17zW"
+                        },
+                        {
+                            "field":  "outputModel",
+                            "value":  "claude-sonnet-4-20250514"
+                        },
+                        {
+                            "field":  "usageInputTokens",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "usageOutputTokens",
+                            "value":  "85"
+                        },
+                        {
+                            "field":  "cacheCreateTokens",
+                            "value":  "0"
+                        },
+                        {
+                            "field":  "cacheReadTokens",
+                            "value":  "0"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CpQBClkKHzY2Mzk4MTgwNTI0NjpiZWRyb2NrLWNsb3Vkd2F0Y2gQBBokNWM4YjIxY2QtZGZhNi00Zjc2LTg3OTctZTA4OTdmYzhiNjAyIg4I+L3W7oozEO+mpO+KMxI1GhgCBokqv9AAAAAAENR/2wAGifM18AAAAAIgASjo5YLvijMw6OWC74ozOAJAjzdIylBQqCMgAhAAGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:21.000"
+                        },
+                        {
+                            "field":  "@ingestionTime",
+                            "value":  "2025-08-15 13:17:30.301"
+                        },
+                        {
+                            "field":  "requestId",
+                            "value":  "8c9b3d07-b595-4594-baca-bbfd89d1b907"
+                        },
+                        {
+                            "field":  "@aws.account",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "@aws.region",
+                            "value":  "us-east-1"
+                        },
+                        {
+                            "field":  "invocationTime",
+                            "value":  "2025-08-15T13:17:21Z"
+                        },
+                        {
+                            "field":  "accountId",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "{\"timestamp\":\"2025-08-15T13:17:21Z\",\"accountId\":\"663981805246\",\"identity\":{\"arn\":\"arn:aws:sts::663981805246:assumed-role/ie-staging-staging-claudeInvoker-us-east-1-lambdaRole/ie-staging-claudeInvoker\"},\"region\":\"us-east-1\",\"requestId\":\"8c9b3d07-b595-4594-baca-bbfd89d1b907\",\"operation\":\"InvokeModel\",\"modelId\":\"arn:aws:bedrock:us-east-1:663981805246:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0\",\"input\":{\"inputContentType\":\"application/json\",\"inputBodyJson\":{\"anthropic_version\":\"bedrock-2023-05-31\",\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"You are an expert insurance evaluator. A user has answered the question: \\\"Why do some people qualify for Medicaid and others for Medicare?\\\"\\nYour task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.\\nEVALUATION RULES:\\n- If correct: Confirm accuracy and briefly reinforce the key distinction\\n- If incorrect: State why it\u0027s wrong and provide the correct explanation\\n- Use only the provided facts - no outside knowledge\\nFACTS:\\n- Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities\\n- Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities\\n- Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability\\n- Both programs can use private insurers for additional coverage\\nUSER\u0027S ANSWER: Medicaid is for old people. Medicare is for young people.\\nYour evaluation:\\n\"}]}],\"max_tokens\":512,\"temperature\":0.7},\"inputTokenCount\":219},\"output\":{\"outputContentType\":\"application/json\",\"outputBodyJson\":{\"id\":\"msg_bdrk_01T19oJFrHtD6Wi65xqoc1Ki\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-20250514\",\"content\":[{\"type\":\"text\",\"text\":\"Your answer is incorrect - you have the programs reversed and oversimplified the eligibility criteria. Medicare is primarily for people 65 and older OR those under 65 with qualifying disabilities, while Medicaid is a state-managed program for people who meet certain income thresholds OR have qualifying disabilities, regardless of age. The key distinction is that Medicare eligibility is based on age (65+) or disability status, whereas Medicaid eligibility is primarily based on income level and/or disability status.\"}],\"stop_reason\":\"end_turn\",\"stop_sequence\":null,\"usage\":{\"input_tokens\":219,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":109},\"amazon-bedrock-trace\":{\"guardrail\":{\"input\":{\"nggt98iysuiw\":{\"invocationMetrics\":{\"guardrailProcessingLatency\":325,\"usage\":{\"topicPolicyUnits\":1,\"contentPolicyUnits\":1,\"wordPolicyUnits\":1,\"automatedReasoningPolicyUnits\":0,\"automatedReasoningPolicies\":0,\"sensitiveInformationPolicyUnits\":1,\"sensitiveInformationPolicyFreeUnits\":0,\"contextualGroundingPolicyUnits\":0,\"contentPolicyImageUnits\":0},\"guardrailCoverage\":{\"textCharacters\":{\"guarded\":930,\"total\":930}}}}},\"outputs\":[{\"nggt98iysuiw\":{\"invocationMetrics\":{\"guardrailProcessingLatency\":363,\"usage\":{\"topicPolicyUnits\":1,\"contentPolicyUnits\":1,\"wordPolicyUnits\":1,\"automatedReasoningPolicyUnits\":0,\"automatedReasoningPolicies\":0,\"sensitiveInformationPolicyUnits\":1,\"sensitiveInformationPolicyFreeUnits\":0,\"contextualGroundingPolicyUnits\":0,\"contentPolicyImageUnits\":0},\"guardrailCoverage\":{\"textCharacters\":{\"guarded\":519,\"total\":519}}}}}],\"actionReason\":\"No action.\"}},\"amazon-bedrock-guardrailAction\":\"NONE\"},\"outputTokenCount\":109},\"inferenceRegion\":\"us-west-2\",\"schemaType\":\"ModelInvocationLog\",\"schemaVersion\":\"1.0\"}"
+                        },
+                        {
+                            "field":  "inferenceRegion",
+                            "value":  "us-west-2"
+                        },
+                        {
+                            "field":  "input.inputTokenCount",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "anthropicVersion",
+                            "value":  "bedrock-2023-05-31"
+                        },
+                        {
+                            "field":  "output.outputTokenCount",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "invocationId",
+                            "value":  "msg_bdrk_01T19oJFrHtD6Wi65xqoc1Ki"
+                        },
+                        {
+                            "field":  "outputModel",
+                            "value":  "claude-sonnet-4-20250514"
+                        },
+                        {
+                            "field":  "usageInputTokens",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "usageOutputTokens",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "cacheCreateTokens",
+                            "value":  "0"
+                        },
+                        {
+                            "field":  "cacheReadTokens",
+                            "value":  "0"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CpQBClkKHzY2Mzk4MTgwNTI0NjpiZWRyb2NrLWNsb3Vkd2F0Y2gQBBokNWM4YjIxY2QtZGZhNi00Zjc2LTg3OTctZTA4OTdmYzhiNjAyIg4I+L3W7oozEO+mpO+KMxI1GhgCBokqv9AAAAAAENR/2wAGifM18AAAAAIgASjo5YLvijMw6OWC74ozOAJAjzdIylBQqCMgAhABGAE="
+                        }
+                    ]
+                ],
+    "statistics":  {
+                       "recordsMatched":  2.0,
+                       "recordsScanned":  2.0,
+                       "bytesScanned":  7055.0
+                   },
+    "status":  "Complete"
+}

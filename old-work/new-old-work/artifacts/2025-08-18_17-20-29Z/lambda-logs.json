@@ -1,0 +1,390 @@
+﻿{
+    "eventCount":  64,
+    "events":  [
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.596",
+                       "@message":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.600",
+                       "@message":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.991",
+                       "@message":  "OTEL_TRACES_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.994",
+                       "@message":  "AWS Application Signals enabled.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.994",
+                       "@message":  "AWS Application Signals metrics export interval capped to 60000\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.996",
+                       "@message":  "Enabled batch unsampled span processor for Lambda environment.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:12.997",
+                       "@message":  "OTEL_LOGS_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.000",
+                       "@message":  "OTEL_METRICS_EXPORTER contains \"none\". Metric provider will not be initialized.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.000",
+                       "@message":  "Setting TraceProvider for instrumentations at the end of initialization\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.001",
+                       "@message":  "AWS Distro of OpenTelemetry automatic instrumentation started successfully\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.045",
+                       "@message":  "OTEL_TRACES_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.049",
+                       "@message":  "AWS Application Signals enabled.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.049",
+                       "@message":  "AWS Application Signals metrics export interval capped to 60000\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.052",
+                       "@message":  "Enabled batch unsampled span processor for Lambda environment.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.053",
+                       "@message":  "OTEL_LOGS_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.057",
+                       "@message":  "OTEL_METRICS_EXPORTER contains \"none\". Metric provider will not be initialized.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.057",
+                       "@message":  "Setting TraceProvider for instrumentations at the end of initialization\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.057",
+                       "@message":  "AWS Distro of OpenTelemetry automatic instrumentation started successfully\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.432",
+                       "@message":  "2025-08-18T16:57:13.432Z\tundefined\tWARN\tFailed extracting version /var/task/functions/claudeInvoker\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.433",
+                       "@message":  "2025-08-18T16:57:13.433Z\tundefined\tWARN\tAWS Lambda plans to remove support for callback-based function handlers starting with Node.js 24. You will need to update this function to use an async handler to use Node.js 24 or later. For more information and to provide feedback on this change, see https://github.com/aws/aws-lambda-nodejs-runtime-interface-client/issues/137. To disable this warning, set the AWS_LAMBDA_NODEJS_DISABLE_CALLBACK_WARNING environment variable.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.458",
+                       "@message":  "START RequestId: 3f96954f-9852-4898-b7c1-ea495a519653 Version: $LATEST\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.496",
+                       "@message":  "2025-08-18T16:57:13.496Z\t3f96954f-9852-4898-b7c1-ea495a519653\tINFO\t[ATTEMPT 1] Starting at 2025-08-18T16:57:13.496Z\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.623",
+                       "@message":  "2025-08-18T16:57:13.623Z\tundefined\tWARN\tFailed extracting version /var/task/functions/claudeInvoker\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.624",
+                       "@message":  "2025-08-18T16:57:13.624Z\tundefined\tWARN\tAWS Lambda plans to remove support for callback-based function handlers starting with Node.js 24. You will need to update this function to use an async handler to use Node.js 24 or later. For more information and to provide feedback on this change, see https://github.com/aws/aws-lambda-nodejs-runtime-interface-client/issues/137. To disable this warning, set the AWS_LAMBDA_NODEJS_DISABLE_CALLBACK_WARNING environment variable.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.667",
+                       "@message":  "START RequestId: 76993f9e-7f66-4786-99cc-444dc9d59a5c Version: $LATEST\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:13.722",
+                       "@message":  "2025-08-18T16:57:13.722Z\t76993f9e-7f66-4786-99cc-444dc9d59a5c\tINFO\t[ATTEMPT 1] Starting at 2025-08-18T16:57:13.722Z\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:15.617"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:15.986",
+                       "@message":  "2025-08-18T16:57:15.986Z\t76993f9e-7f66-4786-99cc-444dc9d59a5c\tINFO\t[ATTEMPT 1] Success after 2264ms\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:25.005"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:16.004",
+                       "@message":  "END RequestId: 76993f9e-7f66-4786-99cc-444dc9d59a5c\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:25.005"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:16.004",
+                       "@message":  "REPORT RequestId: 76993f9e-7f66-4786-99cc-444dc9d59a5c\tDuration: 2336.82 ms\tBilled Duration: 2337 ms\tMemory Size: 1024 MB\tMax Memory Used: 118 MB\tInit Duration: 1061.71 ms\t\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]744768534aad423abf16439bb0717593",
+                       "@ingestionTime":  "2025-08-18 16:57:25.005"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:17.591",
+                       "@message":  "2025-08-18T16:57:17.591Z\t3f96954f-9852-4898-b7c1-ea495a519653\tINFO\t[ATTEMPT 1] Success after 4095ms\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:17.614",
+                       "@message":  "END RequestId: 3f96954f-9852-4898-b7c1-ea495a519653\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 16:57:17.614",
+                       "@message":  "REPORT RequestId: 3f96954f-9852-4898-b7c1-ea495a519653\tDuration: 4155.33 ms\tBilled Duration: 4156 ms\tMemory Size: 1024 MB\tMax Memory Used: 118 MB\tInit Duration: 858.66 ms\t\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]649402a793bd4edeb56175d8f9141fea",
+                       "@ingestionTime":  "2025-08-18 16:57:18.541"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:43.673",
+                       "@message":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:43.679",
+                       "@message":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.108",
+                       "@message":  "OTEL_TRACES_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.111",
+                       "@message":  "AWS Application Signals enabled.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.111",
+                       "@message":  "AWS Application Signals metrics export interval capped to 60000\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.115",
+                       "@message":  "Enabled batch unsampled span processor for Lambda environment.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.115",
+                       "@message":  "OTEL_LOGS_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.119",
+                       "@message":  "OTEL_METRICS_EXPORTER contains \"none\". Metric provider will not be initialized.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.119",
+                       "@message":  "Setting TraceProvider for instrumentations at the end of initialization\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.120",
+                       "@message":  "AWS Distro of OpenTelemetry automatic instrumentation started successfully\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.136",
+                       "@message":  "OTEL_TRACES_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.139",
+                       "@message":  "AWS Application Signals enabled.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.139",
+                       "@message":  "AWS Application Signals metrics export interval capped to 60000\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.147",
+                       "@message":  "Enabled batch unsampled span processor for Lambda environment.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.148",
+                       "@message":  "OTEL_LOGS_EXPORTER is empty. Using default otlp exporter.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.152",
+                       "@message":  "OTEL_METRICS_EXPORTER contains \"none\". Metric provider will not be initialized.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.152",
+                       "@message":  "Setting TraceProvider for instrumentations at the end of initialization\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.153",
+                       "@message":  "AWS Distro of OpenTelemetry automatic instrumentation started successfully\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.641",
+                       "@message":  "2025-08-18T17:20:44.641Z\tundefined\tWARN\tFailed extracting version /var/task/functions/claudeInvoker\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.642",
+                       "@message":  "2025-08-18T17:20:44.642Z\tundefined\tWARN\tAWS Lambda plans to remove support for callback-based function handlers starting with Node.js 24. You will need to update this function to use an async handler to use Node.js 24 or later. For more information and to provide feedback on this change, see https://github.com/aws/aws-lambda-nodejs-runtime-interface-client/issues/137. To disable this warning, set the AWS_LAMBDA_NODEJS_DISABLE_CALLBACK_WARNING environment variable.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.662",
+                       "@message":  "START RequestId: cc89a74e-1d50-4375-b7b1-e6ae20e1e867 Version: $LATEST\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.713",
+                       "@message":  "2025-08-18T17:20:44.713Z\tundefined\tWARN\tFailed extracting version /var/task/functions/claudeInvoker\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.722",
+                       "@message":  "2025-08-18T17:20:44.722Z\tundefined\tWARN\tAWS Lambda plans to remove support for callback-based function handlers starting with Node.js 24. You will need to update this function to use an async handler to use Node.js 24 or later. For more information and to provide feedback on this change, see https://github.com/aws/aws-lambda-nodejs-runtime-interface-client/issues/137. To disable this warning, set the AWS_LAMBDA_NODEJS_DISABLE_CALLBACK_WARNING environment variable.\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.740",
+                       "@message":  "2025-08-18T17:20:44.740Z\tcc89a74e-1d50-4375-b7b1-e6ae20e1e867\tINFO\t[ATTEMPT 1] Starting at 2025-08-18T17:20:44.740Z\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:46.658"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.751",
+                       "@message":  "START RequestId: 8ca81024-28c6-4e98-8c38-940817944cc8 Version: $LATEST\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:44.803",
+                       "@message":  "2025-08-18T17:20:44.803Z\t8ca81024-28c6-4e98-8c38-940817944cc8\tINFO\t[ATTEMPT 1] Starting at 2025-08-18T17:20:44.803Z\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.363",
+                       "@message":  "2025-08-18T17:20:48.363Z\t8ca81024-28c6-4e98-8c38-940817944cc8\tINFO\t[ATTEMPT 1] Success after 3560ms\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.375",
+                       "@message":  "2025-08-18T17:20:48.375Z\tcc89a74e-1d50-4375-b7b1-e6ae20e1e867\tINFO\t[ATTEMPT 1] Success after 3635ms\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:57.395"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.390",
+                       "@message":  "END RequestId: 8ca81024-28c6-4e98-8c38-940817944cc8\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.391",
+                       "@message":  "REPORT RequestId: 8ca81024-28c6-4e98-8c38-940817944cc8\tDuration: 3638.64 ms\tBilled Duration: 3639 ms\tMemory Size: 1024 MB\tMax Memory Used: 119 MB\tInit Duration: 1068.21 ms\t\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]4d769ea652e74b12ae94157b36d241c9",
+                       "@ingestionTime":  "2025-08-18 17:20:52.441"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.401",
+                       "@message":  "END RequestId: cc89a74e-1d50-4375-b7b1-e6ae20e1e867\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:57.395"
+                   },
+                   {
+                       "@timestamp":  "2025-08-18 17:20:48.401",
+                       "@message":  "REPORT RequestId: cc89a74e-1d50-4375-b7b1-e6ae20e1e867\tDuration: 3738.74 ms\tBilled Duration: 3739 ms\tMemory Size: 1024 MB\tMax Memory Used: 118 MB\tInit Duration: 984.75 ms\t\n",
+                       "@logStreamName":  "2025/08/18/[$LATEST]fc28755e17444cf8a55eb0aa5aaadbc4",
+                       "@ingestionTime":  "2025-08-18 17:20:57.395"
+                   }
+               ],
+    "logGroup":  "/aws/lambda/ie-staging-claudeInvoker"
+}

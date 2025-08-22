@@ -1,0 +1,9 @@
+﻿{
+    "AverageOutputTokens":  104.83,
+    "TotalInvocations":  6,
+    "AverageInputTokens":  219,
+    "MaxInputTokens":  219,
+    "TotalInputTokens":  1314,
+    "MaxOutputTokens":  109,
+    "TotalOutputTokens":  629
+}

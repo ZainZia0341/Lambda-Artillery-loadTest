@@ -1,0 +1,94 @@
+﻿{
+    "results":  [
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 12:44:54.000"
+                        },
+                        {
+                            "field":  "requestId",
+                            "value":  "85b25dcd-78a7-4ad2-9cfa-166ecd6034d8"
+                        },
+                        {
+                            "field":  "accountId",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "inferenceRegion",
+                            "value":  "us-east-2"
+                        },
+                        {
+                            "field":  "input.inputTokenCount",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "output.outputTokenCount",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "model",
+                            "value":  "claude-sonnet-4-20250514"
+                        },
+                        {
+                            "field":  "usageInputTokens",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "usageOutputTokens",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CpQBClkKHzY2Mzk4MTgwNTI0NjpiZWRyb2NrLWNsb3Vkd2F0Y2gQBBokNWM4YjIxY2QtZGZhNi00Zjc2LTg3OTctZTA4OTdmYzhiNjAyIg4IoMPF7YozEK+kk+6KMxI1GhgCBokqv9AAAAAAEMkeWAAGifK5cAAAAAIgASjw+ovuijMw8PqL7oozOAJAhThIyU9QpyIgAhAAGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 12:44:54.000"
+                        },
+                        {
+                            "field":  "requestId",
+                            "value":  "9081a09f-d387-4e2a-a2fe-3a6163392508"
+                        },
+                        {
+                            "field":  "accountId",
+                            "value":  "663981805246"
+                        },
+                        {
+                            "field":  "inferenceRegion",
+                            "value":  "us-east-1"
+                        },
+                        {
+                            "field":  "input.inputTokenCount",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "output.outputTokenCount",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "model",
+                            "value":  "claude-sonnet-4-20250514"
+                        },
+                        {
+                            "field":  "usageInputTokens",
+                            "value":  "219"
+                        },
+                        {
+                            "field":  "usageOutputTokens",
+                            "value":  "109"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CpQBClkKHzY2Mzk4MTgwNTI0NjpiZWRyb2NrLWNsb3Vkd2F0Y2gQBBokNWM4YjIxY2QtZGZhNi00Zjc2LTg3OTctZTA4OTdmYzhiNjAyIg4IoMPF7YozEK+kk+6KMxI1GhgCBokqv9AAAAAAEMkeWAAGifK5cAAAAAIgASjw+ovuijMw8PqL7oozOAJAhThIyU9QpyIgAhABGAE="
+                        }
+                    ]
+                ],
+    "statistics":  {
+                       "recordsMatched":  2.0,
+                       "recordsScanned":  2.0,
+                       "bytesScanned":  7173.0
+                   },
+    "status":  "Complete"
+}

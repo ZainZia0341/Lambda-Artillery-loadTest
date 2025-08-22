@@ -1,0 +1,370 @@
+﻿{
+    "statistics":  {
+                       "recordsScanned":  52,
+                       "bytesScanned":  0,
+                       "recordsMatched":  6
+                   },
+    "status":  "Complete",
+    "results":  [
+                    {
+                        "value":  "2025-08-22 09:41:08.560",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:41:17.556",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "fe51ae72-af54-48ea-a8ab-992201d15f11",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  2455,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  2455,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  1019.38,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  118000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    },
+                    {
+                        "value":  "2025-08-22 09:41:09.585",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:41:11.680",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "c9cc2b36-5184-4372-9999-959005466024",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  3496.99,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  3497,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  982.77,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  119000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    },
+                    {
+                        "value":  "2025-08-22 09:46:35.004",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:46:41.649",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "03a4b546-b53c-4026-8d9e-5464940d06d3",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  2378.47,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  2379,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  null,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  120000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    },
+                    {
+                        "value":  "2025-08-22 09:46:35.946",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:46:41.697",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "4ac70f93-82da-4274-9a86-f63e639c1819",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  3270.25,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  3271,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  null,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  120000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    },
+                    {
+                        "value":  "2025-08-22 09:49:18.660",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:49:24.811",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "98e42fe2-0885-47e5-89df-eb0f77fe8d37",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  2874.28,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  2875,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  null,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  120000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    },
+                    {
+                        "value":  "2025-08-22 09:49:19.812",
+                        "field":  "@timestamp"
+                    },
+                    {
+                        "value":  "2025-08-22 09:49:25.453",
+                        "field":  "@ingestionTime"
+                    },
+                    {
+                        "value":  "69ab5d93-39c7-4bf1-933f-5871ca56923d",
+                        "field":  "@requestId"
+                    },
+                    {
+                        "value":  3381.14,
+                        "field":  "@duration"
+                    },
+                    {
+                        "value":  3382,
+                        "field":  "@billedDuration"
+                    },
+                    {
+                        "value":  null,
+                        "field":  "@initDuration"
+                    },
+                    {
+                        "value":  1024000000,
+                        "field":  "@memorySize"
+                    },
+                    {
+                        "value":  120000000,
+                        "field":  "@maxMemoryUsed"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.KeyAttributes.Name"
+                    },
+                    {
+                        "value":  "ie-staging-claudeInvoker",
+                        "field":  "@entity.Attributes.Lambda.Function"
+                    },
+                    {
+                        "value":  "AWS::Lambda",
+                        "field":  "@entity.Attributes.PlatformType"
+                    },
+                    {
+                        "value":  "663981805246",
+                        "field":  "@aws.account"
+                    },
+                    {
+                        "value":  "us-east-1",
+                        "field":  "@aws.region"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xrayTraceId"
+                    },
+                    {
+                        "value":  "",
+                        "field":  "@xraySegmentId"
+                    }
+                ]
+}

@@ -1,0 +1,170 @@
+﻿{
+    "results":  [
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:24.627"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "END RequestId: 91c92f73-37ae-4b1d-8b83-77f557113654\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "91c92f73-37ae-4b1d-8b83-77f557113654"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "END"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQAhokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoRKkOcAAAABUiQbzgAGifM0oAAAAHIgASj73YLvijMwk4KD74ozOBBAwxFImxlQmxAgAhAOGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:24.627"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "REPORT RequestId: 91c92f73-37ae-4b1d-8b83-77f557113654\tDuration: 3666.80 ms\tBilled Duration: 3667 ms\tMemory Size: 1024 MB\tMax Memory Used: 119 MB\tInit Duration: 960.07 ms\t\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "91c92f73-37ae-4b1d-8b83-77f557113654"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "REPORT"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQAhokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoRKkOcAAAABUiQbzgAGifM0oAAAAHIgASj73YLvijMwk4KD74ozOBBAwxFImxlQmxAgAhAPGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:23.822"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "END RequestId: 612ad94f-733f-4acf-a8b6-53e0eec679e6\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "612ad94f-733f-4acf-a8b6-53e0eec679e6"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "END"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBBokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoY5Oj0AAAAArp1AHgAGifM0MAAAB9IgASj93YLvijMw7vuC74ozOBBAwxFIjhlQjhAgAhAOGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:23.822"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "REPORT RequestId: 612ad94f-733f-4acf-a8b6-53e0eec679e6\tDuration: 2858.27 ms\tBilled Duration: 2859 ms\tMemory Size: 1024 MB\tMax Memory Used: 119 MB\tInit Duration: 961.59 ms\t\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "612ad94f-733f-4acf-a8b6-53e0eec679e6"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "REPORT"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBBokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoY5Oj0AAAAArp1AHgAGifM0MAAAB9IgASj93YLvijMw7vuC74ozOBBAwxFIjhlQjhAgAhAPGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:20.963"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "START RequestId: 612ad94f-733f-4acf-a8b6-53e0eec679e6 Version: $LATEST\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "612ad94f-733f-4acf-a8b6-53e0eec679e6"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "START"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBBokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoY5Oj0AAAAArp1AHgAGifM0MAAAB9IgASj93YLvijMw7vuC74ozOBBAwxFIjhlQjhAgAhALGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:20.960"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "START RequestId: 91c92f73-37ae-4b1d-8b83-77f557113654 Version: $LATEST\n"
+                        },
+                        {
+                            "field":  "@requestId",
+                            "value":  "91c92f73-37ae-4b1d-8b83-77f557113654"
+                        },
+                        {
+                            "field":  "@type",
+                            "value":  "START"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQAhokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoRKkOcAAAABUiQbzgAGifM0oAAAAHIgASj73YLvijMwk4KD74ozOBBAwxFImxlQmxAgAhALGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:19.997"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQBBokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoY5Oj0AAAAArp1AHgAGifM0MAAAB9IgASj93YLvijMw7vuC74ozOBBAwxFIjhlQjhAgAhAAGAE="
+                        }
+                    ],
+                    [
+                        {
+                            "field":  "@timestamp",
+                            "value":  "2025-08-15 13:17:19.995"
+                        },
+                        {
+                            "field":  "@message",
+                            "value":  "INIT_START Runtime Version: nodejs:18.v80\tRuntime Version ARN: arn:aws:lambda:us-east-1::runtime:eb463f0483e181b8fc1d514ec52ca261540b73dae25e5e0077f2656d17347da5\n"
+                        },
+                        {
+                            "field":  "@ptr",
+                            "value":  "CqYBCmsKMTY2Mzk4MTgwNTI0NjovYXdzL2xhbWJkYS9pZS1zdGFnaW5nLWNsYXVkZUludm9rZXIQAhokMDMwZmQ4YmMtMGQzMC00NmY0LWFlZmUtZjc3MzdlMzBlZGYzIg4IwO6+7oozEJ/fjO+KMxI1GhgCBoRKkOcAAAABUiQbzgAGifM0oAAAAHIgASj73YLvijMwk4KD74ozOBBAwxFImxlQmxAgAhAAGAE="
+                        }
+                    ]
+                ],
+    "statistics":  {
+                       "recordsMatched":  8.0,
+                       "recordsScanned":  32.0,
+                       "bytesScanned":  4486.0
+                   },
+    "status":  "Complete"
+}

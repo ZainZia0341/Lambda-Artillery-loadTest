@@ -1,0 +1,12 @@
+﻿fields @timestamp, @ingestionTime, requestId, accountId, inferenceRegion,
+  input.inputTokenCount,
+  input.inputBodyJson.anthropic_version as anthropicVersion,
+  output.outputTokenCount,
+  output.outputBodyJson.id as invocationId,
+  output.outputBodyJson.model as outputModel,
+  output.outputBodyJson.usage.input_tokens as usageInputTokens,
+  output.outputBodyJson.usage.output_tokens as usageOutputTokens,
+  output.outputBodyJson.usage.cache_creation_input_tokens as cacheCreateTokens,
+  output.outputBodyJson.usage.cache_read_input_tokens as cacheReadTokens
+| sort @timestamp desc
+| limit 200

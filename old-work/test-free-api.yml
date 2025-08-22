@@ -1,0 +1,14 @@
+# test-free-api.yml
+config:
+  target: "https://jsonplaceholder.typicode.com"
+  processor: "./simple-request-logger.js"
+  phases:
+    - duration: 5
+      arrivalRate: 2  # 2 requests per second for 5 seconds = 10 requests total
+
+scenarios:
+  - name: "test-individual-metrics"
+    flow:
+      - get:
+          url: "/users"
+          afterResponse: "logRequest"

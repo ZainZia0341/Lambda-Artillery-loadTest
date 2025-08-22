@@ -1,0 +1,4 @@
+﻿filter @type = "REPORT"
+| fields @timestamp, @ingestionTime, @requestId, @duration, @billedDuration, @initDuration, @memorySize, @maxMemoryUsed, @xrayTraceId, @xraySegmentId
+| sort @timestamp desc
+| limit 200

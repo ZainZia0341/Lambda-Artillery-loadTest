@@ -1,0 +1,6 @@
+RequestNumber,Timestamp,ResponseTime(ms),StatusCode,URL
+1,2025-07-31T16:52:11.934Z,468,200,https://jsonplaceholder.typicode.com/users
+2,2025-07-31T16:52:12.296Z,111,200,https://jsonplaceholder.typicode.com/users
+3,2025-07-31T16:52:13.280Z,109,200,https://jsonplaceholder.typicode.com/users
+4,2025-07-31T16:52:15.272Z,109,200,https://jsonplaceholder.typicode.com/users
+5,2025-07-31T16:52:15.753Z,1604,200,https://jsonplaceholder.typicode.com/users

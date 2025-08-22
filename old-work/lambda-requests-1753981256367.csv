@@ -1,0 +1,3 @@
+RequestNumber,Timestamp,ResponseTime(ms),StatusCode,URL,RequestId
+1,2025-07-31T17:01:00.418Z,3348,200,https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com/staging/invoke-claude,fee67d49-8b61-48d7-8543-56bd0b547a76
+2,2025-07-31T17:01:01.205Z,3641,200,https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com/staging/invoke-claude,d5b5cd42-a892-4f67-8180-584203b8669d

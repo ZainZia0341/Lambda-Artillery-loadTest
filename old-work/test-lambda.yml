@@ -1,0 +1,283 @@
+# config:
+#   target: "https://your-api-endpoint.amazonaws.com"
+#   phases:
+#     # Close estimation for AI model inference:
+#     - name: first-attemp
+#       duration: 60        # test runs for 1 minute
+#       arrivalRate: 1
+#     - name: second-attemp      # 1 request per second (60 total)
+#       duration: 120
+#       arrivalRate: 0.5    # 1 request every 2 seconds (60 total)
+#     # Adjust rates up/down based on your Lambda's performance and cost
+#   payload:
+#     # You can add more questions here to randomize, or use just one
+#     - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#       userAnswer: "Medicaid is for old people. Medicare is for young people."
+#   # Set max number of concurrent requests if needed:
+#   # ensure this matches your Lambda concurrency limits
+#   # defaults are usually fine for moderate tests
+
+# scenarios:
+#   - flow:
+#       - post:
+#           url: "/prod/your-lambda-path"
+#           json:
+#             question: "{{ question }}"
+#             evaluationPrompt: "You are an expert insurance evaluator. A user has answered the question: \"{{ question }}\"\n\nYour task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.\n\nEVALUATION RULES:\n- If correct: Confirm accuracy and briefly reinforce the key distinction\n- If incorrect: State why it's wrong and provide the correct explanation\n- Use only the provided facts - no outside knowledge\n\nFACTS:\n- Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities\n- Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities  \n- Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability\n- Both programs can use private insurers for additional coverage\n\nUSER'S ANSWER: {{ userAnswer }}\n\nYour evaluation:"
+#             userAnswer: "{{ userAnswer }}"
+#           capture:
+#             json: "$"  # Capture entire response body for each request
+
+
+
+
+
+# config:
+#   target: "https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com"
+#   processor: "./response-logger.js"
+#   # Multiple test cases - Artillery will randomly pick one for each request
+#   payload:
+#     - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#       userAnswer: "Medicaid is for old people. Medicare is for young people."
+#     # - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#     #   userAnswer: "Medicare is for people over 65 and Medicaid is for low-income individuals."
+#     # - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#     #   userAnswer: "I think they're the same thing, just different names."
+#   phases:
+#     - name: test-multiple-cases
+#       duration: 10
+#       arrivalRate: 1  # 1 request per second for 10 seconds
+
+# scenarios:
+#   - flow:
+#       - post:
+#           url: "/staging/invoke-claude"
+#           json:
+#             question: "{{ question }}"
+#             evaluationPrompt: |
+#               You are an expert insurance evaluator. A user has answered the question: "{{ question }}"
+
+#               Your task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.
+
+#               EVALUATION RULES:
+#               - If correct: Confirm accuracy and briefly reinforce the key distinction
+#               - If incorrect: State why it's wrong and provide the correct explanation
+#               - Use only the provided facts - no outside knowledge
+
+#               FACTS:
+#               - Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities
+#               - Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities  
+#               - Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability
+#               - Both programs can use private insurers for additional coverage
+
+#               USER'S ANSWER: {{ userAnswer }}
+
+#               Your evaluation:
+#             userAnswer: "{{ userAnswer }}"
+#           capture:
+#             - json: "$"
+#               as: "fullResponse"
+#       - function: "logResponse"
+
+
+
+# config:
+#   target: "https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com"
+#   processor: "./enhanced-response-logger.js"  # Use the enhanced logger
+#   phases:
+#     - name: 1-request-per-second-for-1-second
+#       duration: 1
+#       arrivalCount: 50
+
+# scenarios:
+#   - flow:
+#       - post:
+#           url: "/staging/invoke-claude"
+#           json:
+#             question: "Why do some people qualify for Medicaid and others for Medicare?"
+#             evaluationPrompt: |
+#               You are an expert insurance evaluator. A user has answered the question: "Why do some people qualify for Medicaid and others for Medicare?"
+
+#               Your task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.
+
+#               EVALUATION RULES:
+#               - If correct: Confirm accuracy and briefly reinforce the key distinction
+#               - If incorrect: State why it's wrong and provide the correct explanation
+#               - Use only the provided facts - no outside knowledge
+
+#               FACTS:
+#               - Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities
+#               - Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities  
+#               - Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability
+#               - Both programs can use private insurers for additional coverage
+
+#               USER'S ANSWER: Medicaid is for old people. Medicare is for young people.
+
+#               Your evaluation:
+#             userAnswer: "Medicaid is for old people. Medicare is for young people."
+#           capture:
+#             - json: "$"
+#               as: "fullResponse"
+#       - function: "logResponse"
+
+
+# config:
+#   target: "https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com"
+#   processor: "./fixed-response-logger.js"  # Use the fixed logger
+#   phases:
+#     - name: load-test-with-proper-timing
+#       duration: 1
+#       arrivalCount: 1
+
+# scenarios:
+#   - flow:
+#       - post:
+#           url: "/staging/invoke-claude"
+#           json:
+#             question: "Why do some people qualify for Medicaid and others for Medicare?"
+#             evaluationPrompt: "You are an expert insurance evaluator. A user has answered the question: Why do some people qualify for Medicaid and others for Medicare? Your task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences. EVALUATION RULES: - If correct: Confirm accuracy and briefly reinforce the key distinction - If incorrect: State why it's wrong and provide the correct explanation - Use only the provided facts - no outside knowledge FACTS: - Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities - Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities - Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability - Both programs can use private insurers for additional coverage USER'S ANSWER: Medicaid is for old people. Medicare is for young people. Your evaluation:"
+#             userAnswer: "Medicaid is for old people. Medicare is for young people."
+#           # Remove the capture section since we're handling it in afterResponse
+#       # Remove the function call since afterResponse handles everything
+
+
+# config:
+#   target: "https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com"
+#   processor: "./enhanced-artillery-logger.js"
+  
+#   # Enable additional plugins for better metrics
+#   plugins:
+#     metrics-by-endpoint: {}
+#     # This ensures we get per-request tracking
+#     expect: {}
+  
+#   # Set report format to include individual transaction data
+#   output:
+#     - type: "json"
+#       filename: "artillery-detailed-report.json"
+  
+#   phases:
+#     # Start with 2 requests for testing
+#     - name: test-individual-tracking
+#       duration: 2
+#       arrivalCount: 2
+      
+#     # Then scale to 50 if the test works
+#     # - name: load-test-50-requests
+#     #   duration: 5
+#     #   arrivalCount: 50
+
+# scenarios:
+#   - name: "claude-evaluation-scenario"
+#     flow:
+#       # Mark scenario start
+#       - function: "beforeRequest"
+      
+#       # Main request
+#       - post:
+#           url: "/staging/invoke-claude"
+#           beforeRequest: "beforeRequest"
+#           afterResponse: "afterResponse"
+#           json:
+#             question: "Why do some people qualify for Medicaid and others for Medicare?"
+#             evaluationPrompt: |
+#               You are an expert insurance evaluator. A user has answered the question: "Why do some people qualify for Medicaid and others for Medicare?"
+              
+#               Your task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.
+              
+#               EVALUATION RULES:
+#               - If correct: Confirm accuracy and briefly reinforce the key distinction
+#               - If incorrect: State why it's wrong and provide the correct explanation
+#               - Use only the provided facts - no outside knowledge
+              
+#               FACTS:
+#               - Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities
+#               - Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities
+#               - Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability
+#               - Both programs can use private insurers for additional coverage
+              
+#               USER'S ANSWER: Medicaid is for old people. Medicare is for young people.
+              
+#               Your evaluation:
+#             userAnswer: "Medicaid is for old people. Medicare is for young people."
+          
+#           # Capture response details
+#           capture:
+#             - json: "$.evaluation"
+#               as: "evaluationResponse"
+#             - header: "x-amzn-requestid"
+#               as: "requestId"
+#             - header: "x-amzn-trace-id"
+#               as: "traceId"
+          
+#           # Add expectations for monitoring
+#           expect:
+#             - statusCode: 200
+#             - contentType: json
+#             - hasProperty: evaluation
+      
+#       # Log detailed response after each request
+#       - function: "logDetailedResponse"
+
+# Alternative configuration using loop for multiple requests with different data
+# scenarios:
+#   - name: "multi-request-scenario"
+#     flow:
+#       - loop:
+#         - post:
+#             url: "/staging/invoke-claude"
+#             beforeRequest: "beforeRequest"
+#             afterResponse: "afterResponse"
+#             json:
+#               question: "{{ $loopElement.question }}"
+#               evaluationPrompt: "{{ $loopElement.prompt }}"
+#               userAnswer: "{{ $loopElement.answer }}"
+#         count: 2
+#         over:
+#           - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#             answer: "Medicaid is for old people. Medicare is for young people."
+#             prompt: "You are an expert insurance evaluator..."
+#           - question: "Why do some people qualify for Medicaid and others for Medicare?"
+#             answer: "Medicare is for seniors, Medicaid is for low-income people."
+#             prompt: "You are an expert insurance evaluator..."
+
+
+# test-lambda-final.yml
+config:
+  target: "https://m6ks5oetmg.execute-api.us-east-1.amazonaws.com"
+  processor: "./lambda-request-logger.js"
+  phases:
+    # Start with just 2 requests to verify it works
+    - name: test-phase
+      duration: 1
+      arrivalCount: 2
+      
+
+scenarios:
+  - name: "lambda-claude-test"
+    flow:
+      - post:
+          url: "/staging/invoke-claude"
+          afterResponse: "logRequest"
+          json:
+            question: "Why do some people qualify for Medicaid and others for Medicare?"
+            evaluationPrompt: |
+              You are an expert insurance evaluator. A user has answered the question: "Why do some people qualify for Medicaid and others for Medicare?"
+              
+              Your task: Evaluate their answer using ONLY the facts provided below. Respond in exactly 3 sentences.
+              
+              EVALUATION RULES:
+              - If correct: Confirm accuracy and briefly reinforce the key distinction
+              - If incorrect: State why it's wrong and provide the correct explanation
+              - Use only the provided facts - no outside knowledge
+              
+              FACTS:
+              - Medicare: Federal program for people 65+ OR under 65 with qualifying disabilities
+              - Medicaid: State-managed program for people meeting income thresholds OR having qualifying disabilities
+              - Key difference: Medicare eligibility = age (65+) or disability; Medicaid eligibility = income level and/or disability
+              - Both programs can use private insurers for additional coverage
+              
+              USER'S ANSWER: Medicaid is for old people. Medicare is for young people.
+              
+              Your evaluation:
+            userAnswer: "Medicaid is for old people. Medicare is for young people."

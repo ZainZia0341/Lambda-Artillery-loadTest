@@ -1,0 +1,4 @@
+﻿fields @timestamp, @ingestionTime, @requestId, @duration, @billedDuration, @initDuration, @memorySize, @maxMemoryUsed, @xrayTraceId, @xraySegmentId
+| filter @message like /^REPORT/
+| sort @timestamp desc
+| limit 200

@@ -1,0 +1,24 @@
+{
+  "testRunId": 1754042493378,
+  "startTime": "2025-08-01T10:01:33.387Z",
+  "requests": [
+    {
+      "number": 1,
+      "timestamp": "2025-08-01T10:01:38.451Z",
+      "responseTime": 3967,
+      "statusCode": 200,
+      "responseFile": "response-1.json"
+    },
+    {
+      "number": 2,
+      "timestamp": "2025-08-01T10:01:39.148Z",
+      "responseTime": 3672,
+      "statusCode": 200,
+      "responseFile": "response-2.json"
+    }
+  ],
+  "endTime": "2025-08-01T10:01:39.148Z",
+  "totalRequests": 2,
+  "successCount": 2,
+  "errorCount": 0
+}
