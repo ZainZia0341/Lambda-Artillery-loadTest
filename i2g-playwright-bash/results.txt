@@ -1,0 +1,10 @@
+Test started at: Fri, Aug 29, 2025  8:43:47 PM
+2025-08-29 20:44:07 - Instance 2: SUCCESS
+2025-08-29 20:44:07 - Instance 1: SUCCESS
+Test completed at: Fri, Aug 29, 2025  8:44:08 PM
+=== Load Test Results ===
+Total Requests: 2
+Successful: 2
+Failed: 0
+Success Rate: %
+Requests per second: 

@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  loadtest:
+    image: mcr.microsoft.com/playwright:v1.40.0-focal
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: node playwright-load-test.js 10 100
+    deploy:
+      replicas: 5  # Run 5 instances of the test
+    environment:
+      - NODE_ENV=production
+      
+  # Alternative: Use scale command
+  # docker-compose up --scale loadtest=10

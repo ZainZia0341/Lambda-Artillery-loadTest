@@ -285,3 +285,87 @@ $DebugPreference = "Continue"
    INGESTION_DELAY_SECONDS=90 \
    ./run-load-and-collect-WORKING.sh
    ```
+
+
+
+
+
+   cd .\i2g-playwright-only-2\
+
+   node playwright-load-test.js 1 2
+
+   What do “concurrency” and “totalTests” mean here?
+
+concurrency = how many browsers run at the same time (simultaneous users).
+
+totalTests = how many full flows you want to run in total.
+
+With your current script:
+
+node playwright-load-test.js 2 20 = run 20 test flows overall, but only 2 at a time.
+
+It’s not “2 named users doing 10 each.” The script just queues 20 tasks and executes them in batches of 2. Each task launches a fresh browser; there’s no identity or session reused across tests.
+
+
+
+____________________________________________________________________________________________________________
+ cd .\i2g-artillery-playwright\
+
+ artillery run artillery-playwright.yml
+
+
+
+ ___________________________________________________________________________________________________________
+
+
+
+ cd i2g-playwright-bash/
+
+chmod +x load-test.sh
+./load-test.sh 20 120  # 20 concurrent users for 120 seconds
+./load-test.sh 2 1
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+node advanced-load-test.js 15 90 10  # 15 users, 90 seconds, 10s ramp-up
+
+
+
+Use this:
+
+node advanced-load-test.js 2 1 0
+
+
+2 = concurrent virtual users
+
+1 = duration in seconds
+
+0 = ramp-up seconds (start both users immediately)
+
+(optional) add false at the end to open real browsers instead of headless:
+
+node advanced-load-test.js 2 1 0 false
+
+What “ramp-up” means (in plain terms)
+
+Ramp-up spreads out the start of users over a few seconds so they don’t all hit the app at the exact same moment.
+
+With rampUp = 10 and concurrency = 15, the script staggers starts by 10/15 ≈ 0.67s per user.
+
+With rampUp = 0, no staggering — all users start right away.
+
+One more heads-up
+
+Your flow takes ~14–16s per iteration. Even if you set duration = 1s, the runner will:
+
+start 2 users immediately,
+
+set stopFlag after 1s,
+
+but each user finishes its current iteration (so the whole run will still take ~15–20s total)
+
+
+
+node advanced-load-test.js 2 1 0 false

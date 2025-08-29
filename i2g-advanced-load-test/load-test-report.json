@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "elapsed": "29.1",
+    "total": 2,
+    "successful": 2,
+    "failed": 0,
+    "inProgress": 0,
+    "successRate": "100.00",
+    "rps": "0.07",
+    "avgResponseTime": "19364",
+    "p50": "24126",
+    "p95": "24126",
+    "p99": "24126"
+  },
+  "results": [
+    {
+      "testId": "user_1_1756483432662",
+      "userId": 1,
+      "success": true,
+      "duration": 14601,
+      "value": 11,
+      "statusCode": 200,
+      "timestamp": "2025-08-29T16:04:08.933Z",
+      "requests": 2
+    },
+    {
+      "testId": "user_2_1756483435173",
+      "userId": 2,
+      "success": true,
+      "duration": 24126,
+      "value": 35,
+      "statusCode": 200,
+      "timestamp": "2025-08-29T16:04:20.291Z",
+      "requests": 2
+    }
+  ],
+  "timestamp": "2025-08-29T16:04:21.738Z"
+}

@@ -1,0 +1,16 @@
+# artillery-playwright.yml
+config:
+  target: "https://i2g.training"
+  phases:
+    - duration: 1
+      arrivalRate: 2  # Start with 2 virtual users per second
+  engines:
+    playwright:
+      launchOptions:
+        headless: true
+  processor: "./processor.js"
+
+scenarios:
+  - name: "Complete User Flow with Playwright"
+    engine: playwright
+    testFunction: "completeUserFlow"
